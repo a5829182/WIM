@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html class="x-admin-sm">
+    <head>
+        <meta charset="UTF-8">
+        <title>基础页面</title>
+        <meta name="renderer" content="webkit">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8,target-densitydpi=low-dpi" />
+        <link rel="stylesheet" href="./css/font.css">
+        <link rel="stylesheet" href="./css/xadmin.css">
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <script src="./lib/layui/layui.js" charset="utf-8"></script>
+        <script type="text/javascript" src="./js/xadmin.js"></script>
+        <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+        <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+        <script src="js/welcome.js"></script>
+    </head>
+    <body>
+        <div class="layui-fluid">
+            <div class="layui-row layui-col-space15">
+                <div class="layui-col-md12">
+                    <div class="layui-card">
+                        <div class="layui-card-body ">
+                            <blockquote class="layui-elem-quote">令牌设置：
+                                <input id="token" type="password"/>
+                                <button id="tokenBtn">确定</button>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="layui-col-md12">
+                    <div class="layui-card">
+                        <div class="layui-card-header">数据统计</div>
+                        <div class="layui-card-body ">
+                            <ul class="layui-row layui-col-space10 layui-this x-admin-carousel x-admin-backlog">
+                                <li class="layui-col-md2 layui-col-xs6">
+                                    <a href="javascript:;" class="x-admin-backlog-body">
+                                        <h3>用户数</h3>
+                                        <p>
+                                            <cite id="usernum"></cite></p>
+                                    </a>
+                                </li>
+                                <li class="layui-col-md2 layui-col-xs6">
+                                    <a href="javascript:;" class="x-admin-backlog-body">
+                                        <h3>普通集市</h3>
+                                        <span>卖:</span><p>
+                                            <cite id="generalSell"></cite></p>
+                                        <span>买:</span><p>
+                                            <cite id="generalBuy"></cite></p>
+                                    </a>
+                                </li>
+                                <li class="layui-col-md2 layui-col-xs6">
+                                    <a href="javascript:;" class="x-admin-backlog-body">
+                                        <h3>猫狗集市</h3>
+                                        <span>卖:</span><p>
+                                            <cite id="petSell"></cite></p>
+                                        <span>买:</span><p>
+                                            <cite id="petBuy"></cite></p>
+                                    </a>
+                                </li>
+                                <li class="layui-col-md2 layui-col-xs6">
+                                    <a href="javascript:;" class="x-admin-backlog-body">
+                                        <h3>玄骸集市</h3>
+                                        <span>卖:</span><p>
+                                            <cite id="lichSell"></cite></p>
+                                        <span>买:</span><p>
+                                            <cite id="lichBuy"></cite></p>
+                                    </a>
+                                </li>
+                                <li class="layui-col-md2 layui-col-xs6 ">
+                                    <a href="javascript:;" class="x-admin-backlog-body">
+                                        <h3>紫卡集市</h3>
+                                        <span>卖:</span><p>
+                                            <cite id="rivenSell"></cite></p>
+                                        <span>买:</span><p>
+                                            <cite id="rivenBuy"></cite></p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="layui-col-md12">
+                    <div class="layui-card">
+                        <div class="layui-card-header">系统信息</div>
+                        <div class="layui-card-body ">
+                            <table class="layui-table">
+                                <tbody>
+                                    <tr>
+                                        <th>版本</th>
+                                        <td>1.0.0</td></tr>
+                                    <tr>
+                                        <th>MYSQL版本</th>
+                                        <td>5.7</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="layui-col-md12">
+                    <div class="layui-card">
+                        <div class="layui-card-header">开发相关</div>
+                        <div class="layui-card-body ">
+                            <table class="layui-table">
+                                <tbody>
+                                    <tr>
+                                        <th>开发者</th>
+                                        <td>EG-Free(2237264705@qq.com)</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <style id="welcome_style"></style>
+                <div class="layui-col-md12">
+                    <blockquote class="layui-elem-quote layui-quote-nm">技术支持:
+                        <a href="https://www.layui.com/" target="_blank" style="color: rgb(0, 150, 150);">layui</a>，本系统由
+                        <a href="https://gitee.com/srdc2014/X-admin" target="_blank" style="color: rgb(0, 150, 150);">X-admin</a>提供技术支持。</blockquote></div>
+            </div>
+        </div>
+        </div>
+    </body>
+
+</html>
